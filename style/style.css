@@ -1,0 +1,59 @@
+.container{
+  margin-top:15px;
+  max-width: 768px !important;
+}
+
+.nav-bar-right{
+  float:right !important;
+}
+.navbar-header{
+  float:none !important;
+}
+
+.grade{
+  margin-right: 15px;
+    font-size:100%;
+}
+.points{
+  font-size:100%;
+}
+.add_route{
+  margin-bottom: 15px !important;
+}
+.currentpoints{
+  font-weight: 900;
+  margin-bottom:5px !important;
+}
+
+button a{
+  color: white;
+}
+button a:hover{
+  color: white;
+}
+li span.spacer{
+  margin: 0 15px 0 5px;
+}
+li span.points span{
+  margin-left: 5px;
+}
+
+.nav-tabs>li>a.active{
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+@media only screen and (max-width: 500px){
+  .checkticks{
+    margin-top:10px;
+    margin-bottom:0px;
+  }
+}
+@media only screen and (min-width: 500px){
+.checkticks{
+      float:right;
+  }
+}
